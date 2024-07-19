@@ -1,0 +1,136 @@
+.TopBar{
+    display: flex;
+    background-color: rgb(19,25,33);
+    color: white;
+    height: 60px;
+    
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top : 0;
+
+    justify-content: space-between;
+    align-self: center;
+}
+
+.location-txt{
+    font-size: 12px;
+    color: rgb(187, 183, 183);
+}
+
+.location-text{
+    font-weight: bold;
+    font-size : 14px;
+    color: white;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 16.6%;
+}
+
+.logo{
+    margin-left:10px;
+    margin-top:7px;
+    width: 44.1%;
+}
+
+.logo-img{
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.logo-img:hover{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.location{
+    width: 48%;
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    margin-left:5px;
+}
+
+.location:hover{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.location-img{
+    display: inline-block;
+    margin-top : 19px;
+    width: 19px;
+    height: 21px;
+}
+
+.location-txt{
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+.Middle-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1150px;
+}
+
+.filter{
+    max-width: 55px;
+    height: 70%;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    font-size: 12px;
+    color:rgb(122, 121, 121);
+    padding-left: 5px;
+    padding-top: 4px;
+    border-radius: 2px;
+}
+
+
+.search-bar{
+    flex: 1;
+    min-width: 300px;
+    height: 70%;
+    border:none;
+    padding: 0;
+    padding-left:10px;
+    width: 0;
+    margin-left: -2px;
+}
+
+.search-bar::placeholder{
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+
+}
+
+.search-button{
+    width: 4%;
+    height: 70%;
+    background-color: rgba(254,189,105,255);
+    border: none;
+    border-radius: 2px;
+    margin-left: -5px;
+}
+
+.search-img{
+    height: 20px;
+    margin-top:5px;
+}
+
+
+.Right-section{
+    background-color: aquamarine;
+    width: 400px;
+}

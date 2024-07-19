@@ -1,0 +1,7 @@
+.TopPanel{
+    display: flex;
+    background-color: rgb(35,47,62);
+    height : 40px;
+
+    flex-direction: row;
+}
