@@ -6,8 +6,7 @@
     
     flex-direction: row;
     position: fixed;
-    left: 0;
-    right: 0;
+    width: 100%;
     top : 0;
 
     justify-content: space-between;
@@ -81,7 +80,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 1150px;
+    width: 62%;
 }
 
 .filter{
@@ -98,8 +97,8 @@
 
 
 .search-bar{
-    flex: 1;
-    min-width: 300px;
+    flex: 0.984;
+    min-width: 20%;
     height: 70%;
     border:none;
     padding: 0;
@@ -121,7 +120,11 @@
     background-color: rgba(254,189,105,255);
     border: none;
     border-radius: 2px;
-    margin-left: -5px;
+    margin-left: -3px;
+}
+
+.search-button:hover{
+    cursor: pointer;
 }
 
 .search-img{
@@ -132,5 +135,5 @@
 
 .Right-section{
     background-color: aquamarine;
-    width: 400px;
+    width: 21%;
 }
