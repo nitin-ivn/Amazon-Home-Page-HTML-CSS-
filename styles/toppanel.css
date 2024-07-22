@@ -3,5 +3,7 @@
     background-color: rgb(35,47,62);
     height : 40px;
 
+    position: relative;
+    top: 60px;
     flex-direction: row;
 }
