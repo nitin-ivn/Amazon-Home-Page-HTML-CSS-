@@ -98,21 +98,28 @@
     grid-column: span 2;
 }
 
+.img-container-4{
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-height: 420p;
+    background-color: transparent;
+    padding:0;
+    max-height: 100%;
+}
+
 .item-container{
     display: grid;
     background-color: aqua;
     height: 73%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 15px;
-    row-gap: 15px;
-}
-
-.item-title-container{
+    column-gap: 5px;
+    row-gap: 5px;
 }
 
 .item-title{
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
     margin-bottom : 10px;
 }
@@ -123,13 +130,26 @@
     color: white;
 }
 
+.good-icon{
+    max-width: 100;
+}
+
+.good-icon:hover{
+    cursor: pointer;
+}
+
+.item-img{
+    width: 100%;
+    height: 100%;
+}
+
 .item-con{
-    font-size: 13px;
+    display: inline-block;
+    font-size: 14px;
     color: rgb(0, 113, 133);
 }
 
 .item-con:hover{
-    display: inline-block;
     color: rgb(199, 81, 31);
     cursor: pointer;
 }
@@ -139,5 +159,180 @@
     bottom : -2.5%;
 }
 
+.item-4{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 36%;
+    column-gap: 4px;
+    width: 100%;
+    height: 36%;
+}
+                                            
 
+.item-4-text{
+    margin-left : 18px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 21px;
+}
 
+.item-4-link{
+    position: absolute;
+    top : 70px;
+    margin-left: 18px;
+    font-size: 13px;
+    color: rgb(0, 113, 133);
+}
+
+.item-4-link:hover{
+    text-decoration: underline;
+    color: rgb(199, 81, 31);
+    cursor: pointer;
+}
+
+.item-4-img{
+    margin-top : 24px;
+    margin-right: 5px;
+    width: 86%;
+}
+
+.item-4_1{
+    margin-top : 17px;
+    background-color: aquamarine;
+    width: 100%;
+    height: 60%;
+}
+
+.item-4_1-1{
+    width: 100%;
+    height: 100%;
+}
+
+.item-4_1-1:hover{
+    cursor: pointer;
+}
+
+.container-2{
+    position: absolute;
+    margin-top: 888px;
+    background-color: white;
+    width: 95%;
+    height: 4.55%;
+    padding-left:18px;
+    padding-right:18px;
+    overflow: hidden;
+}
+
+.item-con-2{
+    margin-left : 20px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(0, 113, 133);
+}
+
+.item-con-2:hover{
+    text-decoration: underline;
+    color: rgb(199, 81, 31);
+    cursor: pointer;
+}
+
+.container-2-2{
+    margin-top: -3px;
+    width: 100%;
+    height: 69%;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+.container-2-2::-webkit-scrollbar{
+    height: 8px;
+}
+
+.container-2-2::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 10px;
+}
+
+.container-2-2::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+.container-2-2.show-scroll{
+    overflow-x: auto;
+}
+
+.container-2-img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 5px;
+}
+
+.container-2-img-spc,
+.container-2-img:hover{
+    cursor: pointer;
+}
+
+.container-2-img-spc{
+    margin-right : 0px;
+    width: 19.1%;
+}
+
+.container-2-prev-img,
+.container-2-next-img{
+    position: absolute;
+    background-color: white;
+    border: none;
+    margin-top : 3.4%;
+    width: 3%;
+    height: 35%;
+
+    display: none;
+}
+
+.container-2-next-img{
+    margin-left : 94.61%;
+    border-radius: 4px;
+}
+
+.container-2-prev-img{
+    border-radius: 4px;
+    margin-left : -1.5px;
+}
+
+.arrow-1{
+    height: 20%;
+}
+
+.container-2-prev-img:hover,
+.container-2-next-img:hover{
+    cursor: pointer;
+}
+
+.container-2-prev-img:active,
+.container-2-next-img:active{
+    border : 2px solid rgb(0,113,113);
+}
+
+.container-3{
+    position: absolute;
+    margin-top: 1200px;
+    background-color: white;
+    width: 95%;
+    height: 4.55%;
+    padding-left:18px;
+    padding-right:18px;
+}
+
+.container-3:hover .container-2-next-img,
+.container-3:hover .container-2-prev-img{
+    display: block;
+}
+
+.container-2:hover .container-2-next-img,
+.container-2:hover .container-2-prev-img{
+    display: block;
+}
