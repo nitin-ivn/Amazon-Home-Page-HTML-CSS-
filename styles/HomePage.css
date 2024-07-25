@@ -3,7 +3,7 @@
     position: relative;
     top: 60px;
     width: 100%;
-    height: 100%;
+    height: 88%;
     justify-content: center;
     align-items: center;
 }
@@ -84,7 +84,7 @@
     border: 2px solid black;
     margin-left: 10px;
     margin-right: 10px;
-    max-height: 420p;
+    max-height: 420px;
     background-color: white;
 }
 
@@ -217,7 +217,7 @@
     margin-top: 888px;
     background-color: white;
     width: 95%;
-    height: 4.55%;
+    height: 280px;
     padding-left:18px;
     padding-right:18px;
     overflow: hidden;
@@ -319,10 +319,10 @@
 
 .container-3{
     position: absolute;
-    margin-top: 1200px;
+    margin-top: 1190px;
     background-color: white;
     width: 95%;
-    height: 4.55%;
+    height: 280px;
     padding-left:18px;
     padding-right:18px;
 }
@@ -334,5 +334,169 @@
 
 .container-2:hover .container-2-next-img,
 .container-2:hover .container-2-prev-img{
+    display: block;
+}
+
+.container-4{
+    position: absolute;
+    margin-top: 1495px;
+    background-color: transparent;
+    width: 64.5%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.ad-container{
+    height: 90%;
+}
+
+.sponsor-container{
+    height: 10%;
+    margin-left:92.8%;
+}
+
+.sponsor-container:hover{
+    cursor: pointer;
+}
+
+.ad-img{
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.ad-container:hover{
+    cursor: pointer;
+}
+
+.container-5{
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    margin-top: 1770px;
+    background-color: brown;
+    width: 98.7%;
+    height: 420px;
+    max-height: 420px;
+}
+
+.img-container-2{
+    width: 25%;
+    max-width: 25%;
+}
+
+.item-container-2{
+    height: 67%;
+}
+
+.item-container-2:hover{
+    cursor: pointer;
+}
+
+.container-6{
+    position: absolute;
+    margin-top: 2210px;
+    background-color: white;
+    width: 95%;
+    height: 280px;
+    padding-left:18px;
+    padding-right:18px;
+}
+
+.container-6:hover .container-2-next-img,
+.container-6:hover .container-2-prev-img{
+    display: block;
+}
+
+.container-7{
+    position: absolute;
+    margin-top: 2510px;
+    background-color: white;
+    width: 96%;
+    height: 331px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.video-container{
+    background-color:aquamarine;
+    width: 30.5%;
+    height: 100%;
+}
+
+.container-7-1{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 80%;
+}
+
+.container-7-2{ 
+    display: flex;
+    flex-direction: row;
+    width: 69.5%;
+    max-width: 69.5;
+    height: 99%;
+    max-height: 99%;
+}
+
+.container-7-2:hover .container-2-next-img,
+.container-7-2:hover .container-2-prev-img{
+    display: block;
+}
+
+
+.container-7-2-1{
+    display: inline-block;
+    border: 1px solid rgb(221,221,221);
+    width: 16%;
+    margin-left : 5px;
+    height: 100%;
+    border-radius: 6px;
+
+    padding:5px 10px 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container-7{
+    background-color: rgba(15, 17, 17, 0.03);
+    height: 50%;
+}
+
+.img-container-7:hover{
+    cursor: pointer;
+}
+
+.container-7-text:hover{
+    cursor: pointer;
+}
+
+.container-8{
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    margin-top: 2861px;
+    background-color: brown;
+    width: 98.7%;
+    height: 420px;
+    max-height: 420px;
+}
+
+.container-9{
+    position: absolute;
+    margin-top: 3301px;
+    background-color: white;
+    width: 95%;
+    height: 280px;
+    padding-left:18px;
+    padding-right:18px;
+}
+
+.container-9:hover .container-2-next-img,
+.container-9:hover .container-2-prev-img{
     display: block;
 }
